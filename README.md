@@ -1,6 +1,9 @@
 # python-game-of-life
 Conway's Game of Life written with python and SDL2 
 
+## perview
+<img src="http://i.imgur.com/p9Rs1H2.gif">
+
 ## requirements
 - SDL 2.0
 - pysdl2
@@ -12,8 +15,6 @@ Conway's Game of Life written with python and SDL2
 pysdl2 installation:
 
 ``` sudo pip install pysdl2 ```
-## perview
-<img src="http://i.imgur.com/p9Rs1H2.gif">
 
 ## usage
 ```
@@ -35,3 +36,10 @@ p           - toggle evolution
 Enter       - toggle evolution                                                     
 > / <       - change speed
 ```
+## interesting patterns
+
+![exploders](http://imgur.com/zIQ8bJCl.png)
+
+![more patterns](http://imgur.com/Ga8rC1El.png)
+
+[more info on wiki](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
