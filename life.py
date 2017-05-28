@@ -42,6 +42,9 @@ def print_help():
     print("c           - fill map with random")
     print("n           - toggle grid")
     print("f           - toggle fingerprint display")
+    print("p           - toggle evolution")
+    print("Enter       - toggle evolution")
+    print("> / <       - change speed")
 
 if (len(sys.argv) != 3):
     print("usage: ./life.py width height [--help]")
