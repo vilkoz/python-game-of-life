@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 import sys
 import sdl2
 import sdl2.ext
