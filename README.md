@@ -14,7 +14,9 @@ Conway's Game of Life written with python and SDL2
 
 pysdl2 installation:
 
-``` sudo pip install pysdl2 ```
+```
+sudo pip install pysdl2
+```
 
 ## usage
 ```
@@ -43,3 +45,23 @@ Enter       - toggle evolution
 ![more patterns](http://imgur.com/Ga8rC1El.png)
 
 [more info on wiki](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+
+## install guide for 42 school enviroment
+
+install SDL2.0 through MSC
+
+install pysdl2 in home folder
+```
+pip3 install --target=$HOME/pip pysdl2 
+```
+
+set enviroment variable 
+
+```
+export PYTHONPATH=$HOME/pip
+```
+
+run
+```
+./life.py 100 10
+```
